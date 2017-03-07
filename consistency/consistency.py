@@ -2,8 +2,8 @@ __author__ = 'Haohan Wang'
 
 import numpy as np
 
-scI = np.array([2, 8])
-sI = np.array([0,1,3,4,5,6,7,9,10,11,12,13,14,15])
+scI = np.array([3, 12])
+sI = np.array([0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14,15])
 
 def graphicalLasso(c):
     C = np.zeros([4, 4])
